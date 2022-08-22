@@ -1,13 +1,11 @@
-luku1 = int(input("anna 1. kokonaisluku"))
-luku2 = int(input("anna 2. kokonaisluku"))
-luku3 = int((input("anna 3. kokonaisluku"))
+import math
+luku_1 = int(input("anna 1. kokonaisluku"))
+luku_2 = int(input("anna 2. kokonaisluku"))
+luku_3 = int(input("anna 3. kokonaisluku"))
 
-summa = luku1 + luku2 + luku3
-
-tulo = luku1 * luku2 * luku3
-
-ka Summa / 3
-
-print(f"Summa" = {Summa})
-print(f"Tulo"{Tulo})
-print(f"keskiarvo"{ka})
+Summa = luku_1 + luku_2 + luku_3
+Tulo = luku_1 * luku_2 * luku_3
+ka = Summa /3
+print("Summa", Summa)
+print("Tulo", Tulo)
+print("keskiarvo", ka)

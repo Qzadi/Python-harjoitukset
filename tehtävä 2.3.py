@@ -1,3 +1,4 @@
+import math
 kanta = float(input("anna suorakulmion kanta :"))
 Korkeus= float(input("anna suorakulmion korkeus :"))
 Ala = kanta * korkeus
