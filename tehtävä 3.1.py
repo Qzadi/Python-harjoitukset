@@ -1,4 +1,4 @@
-#Kuha alamitta.
+# Kuha alamitta.
 
 kuha = float(input("kuhan pituus sentteinä?:"))
 
