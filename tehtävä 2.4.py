@@ -1,4 +1,4 @@
-#luvut
+# luvut
 print("Anna kolme kokonaislukua")
 luku_1 = int(input("Luku 1: "))
 luku_2 = int(input("Luku 2: "))

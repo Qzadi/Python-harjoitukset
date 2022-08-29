@@ -11,10 +11,9 @@ Tulo = input1 * Leiviskä + input2 * Naula + input3 * Luoti
 
 Kilot= int(Tulo / 1000)
 
-gramma = int(Tulo%1000)
+gramma = int(Tulo % 1000)
 print("Massa Nykymittojen mukaan:")
 print(Kilot, " Kilogrammaa ja ", end='')
-
 print(gramma, "grammaa")
 
 
