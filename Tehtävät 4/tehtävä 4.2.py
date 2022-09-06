@@ -1,12 +1,12 @@
 # sentit tuumiksi.
 
-tuumat = int(input("Anna tuumat:"))
+tuumat = float(input("Anna tuumat:"))
 b = tuumat
-c = b * 2.51
-while tuumat != 0:
-    print (f"tuumat sentteinä: {c:6.2f}")
-    tuumat = int(input("Anna tuumat: "))
+c = b * 2.54
+while tuumat >= 0:
+    print (f"tuumat sentteinä: {c:6.2f}""cm")
+    tuumat = float(input("Anna tuumat: "))
     b = tuumat
-    c = b * 2.51
+    c = b * 2.54
 print ("negatiivinen tuumaluku.")
 
