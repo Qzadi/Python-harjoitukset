@@ -2,7 +2,7 @@
 # kunnes tämä syöttää tyhjän merkkijonon lopetusmerkiksi.
 # Lopuksi ohjelma tulostaa saaduista luvuista viisi suurinta suuruusjärjestyksessä suurimmasta alkaen.
 # Vihje: listan alkioiden lajittelujärjestyksen voi kääntää antamalla sort-metodille argumentiksi reverse=True.
-numbers = []
+Numerot = []
 readingNumbers = True
 
 while readingNumbers:
@@ -10,11 +10,11 @@ while readingNumbers:
     if strInput == "":
         readingNumbers = False
     else:
-        numbers.append(int(strInput))
-print(numbers)
-numbers.sort()
-numbers.reverse()
-print(numbers)
-print(numbers[:5])
-for number in numbers[:5]:
+        Numerot.append(int(strInput))
+print(Numerot)
+Numerot.sort()
+Numerot.reverse()
+print(Numerot)
+print(Numerot[:5])
+for number in Numerot[:5]:
     print(number)
