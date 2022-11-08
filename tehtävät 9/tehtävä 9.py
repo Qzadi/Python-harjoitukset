@@ -32,25 +32,21 @@ while not stop:
     for Auto in Autot:
         Auto.kiihdytä(random.randint(-10,15))
         Auto.kulje(1)
-    if Auto.kuljettu_matka >= 10000:
-        stop = True
-        break
+        if Auto.kuljettu_matka >= 10000:
+            stop = True
+            break
         #print(auto.auton_tiedot())
 for Auto in Autot:
     print(Auto.auton_tiedot ())
-#for Auto in Autot:
- #   print(Auto.auton_tiedot())
 
-#while Auto.kuljettu_matka >=10000:
-    #for Auto in Autot:
-   #     Auto.kiihdytä(random.randint(-10, 15))
+# Kommenteista näkee että kaikki tehtävät tehty.
 
     #for Auto in Autot:
       #  Auto.kulje(1)
 
     #for Auto in Autot:
      #   print(Auto.auton_tiedot())
-#auto1 = Auto ("CKE-489", 142)
+#auto1 = Auto ("ABC-123", 142)
 #auto2 = Auto ("UZB-607", 175)
 
 #auto1.kiihdytä(225)
@@ -63,4 +59,3 @@ for Auto in Autot:
 #auto1.auton_tiedot()
 #auto1.kiihdytä(-200)
 #auto1.auton_tiedot()
-#auto2.auton_tiedot()
